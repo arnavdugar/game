@@ -1,0 +1,30 @@
+{
+  "name": "game",
+  "author": "Arnav Dugar",
+  "version": "1.0.0",
+  "description": "Boardgame Engine",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.13.3",
+    "jade": "^1.11.0",
+    "pg": "^4.4.3"
+  },
+  "engines": {
+    "node": "5.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arnavdugar/game.git"
+  },
+  "keywords": [
+    "boardgame"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arnavdugar/game/issues"
+  },
+  "homepage": "https://github.com/arnavdugar/game#readme"
+}
