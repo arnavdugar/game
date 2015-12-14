@@ -1,0 +1,96 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300);
+@import url(https://fonts.googleapis.com/css?family=Source+Serif+Pro:400);
+@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro:300);
+
+body {
+    background-color: #193441;
+    color: #FCFFF5;
+    font-family: 'Source Sans Pro';
+    font-size: 24pt;
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Source Serif Pro';
+}
+
+.horizontal {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.vertical {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 800px;
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    margin: 32px;
+    padding: 8px;
+}
+
+.highlight {
+    background-color: #3E606F;
+}
+
+.button {
+    border: solid 2px #FCFFF5;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 8px 24px;
+    transition: color 200ms ease-out,
+                background-color 200ms ease-in-out;
+}
+
+.button:hover {
+    justify-content: ;
+    background-color: #FCFFF5;
+    color: #3E606F;
+}
+
+input.id {
+    background-color: transparent;
+    border: solid 2px #FCFFF5;
+    color: #FCFFF5;
+    flex-basis: 300px;
+    font-family: 'Source Code Pro';
+    font-size: 24pt;
+    padding: 8px;
+    text-align: center;
+    text-transform: lowercase;
+}
+
+input.id:focus {
+    outline: none;
+}
+
+input.id::-webkit-input-placeholder {
+    color: #FCFFF5;
+}
+
+input.id:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+
+.games {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 800px;
+}
+
+.game {
+    border-bottom: 2px solid transparent;
+    cursor: pointer;
+}
+
+.game:hover {
+    border-bottom: 2px solid #FCFFF5;
+}

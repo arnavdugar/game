@@ -3,5 +3,14 @@ html
   head
     title Boardgame Engine
     link(href='index.css', rel='stylesheet')
-  body
-    p Hello World
+    script(src='index.js' type='text/javascript')
+  body(class='vertical')
+    div(class='horizontal')
+      h1(class='item') Boardgame Engine
+    div(class='horizontal highlight')
+      input(id='gid' class='item id' placeholder='enter game id')
+      div(class='item button' onclick='join(event)') Join Game
+    div(class='horizontal games')
+      - var games = ['Checkers', 'Chess', 'Go', 'Othello']
+      each game in games
+        div(class='item game' onclick='create(event)') #{game}
